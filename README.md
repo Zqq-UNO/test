@@ -135,3 +135,4 @@ model_rate=smf.ols('Raw_return~lrate',data=reg_data['2000':]).fit(
     cov_kwds={'maxlags':6}
 )
 print(model_rate.summary())
+print('hello world')
